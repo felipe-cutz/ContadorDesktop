@@ -12,9 +12,10 @@
                 <Label Content="Conteo:" Margin="4" FontSize="18" HorizontalContentAlignment="Center"/>
                 <Label Content="0" x:Name="conteolabel" Margin="4" FontSize="18" HorizontalAlignment="Center"/>
                 <StackPanel Orientation="Horizontal" Margin="8" HorizontalAlignment="Center">
+
+                    <Button Content="Contar" x:Name="ContarButton" Margin="4" Padding="0.2" MinWidth="60" Click="ContarButton_Click"/>
+                    <Button Content="Reiniciar" x:Name="ReiniciarButton" Margin="4" Padding="0.2" MinWidth="60" Click="ReiniciarButton_Click"/>
                     
-                    <Button Content="Contar" x:Name="contarbutton" Margin="4" Padding="0.2" MinWidth="60" Click="contarbutton_Click"/>
-                    <Button Content="Reiniciar" x:Name="reiniciarbutton" Margin="4" Padding="0.2" MinWidth="60"/>
 
                 </StackPanel>
                     
@@ -22,7 +23,8 @@
             </StackPanel>
 
         </Border>
-        <Button Content="Salir" x:Name="salirbutton" Margin="16" HorizontalAlignment="Right" MinWidth="60" Click="salirbutton_Click"/>
+        <Button Content="Salir" x:Name="SalirButton" Margin="16" HorizontalAlignment="Right" MinWidth="60" Click="SalirButton_Click"/>
+        
 
     </StackPanel>
 </Window>
